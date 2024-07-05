@@ -1,0 +1,27 @@
+.card {
+  background-color: #1e1e1e;
+  border: 2px solid #333;
+  height: 500px;
+  width: 300px;
+  border-radius: 8px;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: #333;
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+.card-content {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+}
+
+.card:hover .card-content {
+  color: #00bcd4;
+}

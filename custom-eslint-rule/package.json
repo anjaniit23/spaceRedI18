@@ -1,0 +1,26 @@
+{
+  "name": "namespace-blocker",
+  "version": "1.0.0",
+  "description": "ESLint plugin for enforce-foo-bar rule.",
+  "main": "nsPlugin.js",
+  "scripts": {
+    "test": "node enforce-foo-bar.test.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
